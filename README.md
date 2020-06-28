@@ -37,7 +37,7 @@ my-projects/
 ]
 ```
 
-**project-b/hooks.js**
+**`<cwd>/project-b/hooks.js`**
 ```json
 [
   {
@@ -46,7 +46,7 @@ my-projects/
 ]
 ```
 
-**project-c/hooks.js**
+**`<cwd>/project-c/hooks.js`**
 ```json
 [
   {
@@ -61,7 +61,7 @@ my-projects/
 $ npx webhook-manager
 ```
 
-**<cwd>/web-hooks.json**
+**`<cwd>/web-hooks.json`**
 
 ```json
 [
