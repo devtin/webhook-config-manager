@@ -1,6 +1,6 @@
 {
   "name": "webhook-config-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Loads content of found javascript and json files in given directory into a single structured object",
   "author": "Martin Rafael Gonzalez <tin@devtin.io>",
   "bin": "dist/webhook-config-manager.js",
