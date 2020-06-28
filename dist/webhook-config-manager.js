@@ -1,5 +1,7 @@
+#!/usr/bin/env node
+
 /*!
- * webhook-config-manager v1.0.1
+ * webhook-config-manager v1.0.2
  * (c) 2020 Martin Rafael Gonzalez <tin@devtin.io>
  * MIT
  */

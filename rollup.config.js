@@ -1,5 +1,6 @@
 import { name, version, author, license } from './package.json'
 import commonjs from '@rollup/plugin-commonjs'
+import shebang from 'rollup-plugin-add-shebang'
 
 const initialYear = 2020
 const yearsActive = new Date().getFullYear() !== initialYear ? `${ initialYear }-${ new Date().getFullYear() }` : initialYear
@@ -20,6 +21,6 @@ export default [
         banner
       },
     ],
-    plugins: [commonjs()]
+    plugins: [commonjs(), shebang({include:'dist/webhook-config-manager.js'})]
   }
 ]

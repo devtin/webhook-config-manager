@@ -1,6 +1,6 @@
 {
   "name": "webhook-config-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Loads content of found javascript and json files in given directory into a single structured object",
   "author": "Martin Rafael Gonzalez <tin@devtin.io>",
   "bin": "dist/webhook-config-manager.js",
@@ -40,6 +40,7 @@
     "esm": "^3.2.25",
     "nodemon": "^2.0.4",
     "rollup": "^2.18.1",
+    "rollup-plugin-add-shebang": "^0.3.1",
     "standard-version": "^8.0.0"
   },
   "ava": {
