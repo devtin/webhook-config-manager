@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Loads content of found javascript and json files in given directory into a single structured object",
   "author": "Martin Rafael Gonzalez <tin@devtin.io>",
+  "bin": "dist/webhook-config-manager.js",
   "main": "dist/webhook-config-manager.js",
   "scripts": {
     "build": "rollup -c",
